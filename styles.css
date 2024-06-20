@@ -140,3 +140,33 @@ body {
     max-width: 150px;
 }
 
+/* QUOTE SECTION */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.author {
+    display: flex;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 30px;
+}
