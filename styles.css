@@ -3,3 +3,49 @@
     padding: 0;
     border: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+/* HEADER SECTION */
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.navbar {
+    display: flex;
+    flex:1;
+    gap: 20px;
+    
+}
+
+.logo a {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.navbar a{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header ul {
+    list-style-type: none;
+}
