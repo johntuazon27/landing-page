@@ -101,3 +101,42 @@ body {
     height: 150px;
     width: 300px;
 }
+
+/* INFORMATION SECTION */
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+}
+
+.card img {
+    border: 5px solid blue;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.card p {
+    max-width: 150px;
+}
+
