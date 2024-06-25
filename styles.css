@@ -12,22 +12,28 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+/* HEADER AND HERO SECTION CONTAINER */
+.header-hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    background-color: #1f2937;
+}
 /* HEADER SECTION */
 .header {
     display: flex;
-    justify-content: space-around;
-    background-color: #1f2937;
+    justify-content: space-between;
+    gap: 130px;
 }
 
 .logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+    align-items: center; 
 }
 .navbar {
     display: flex;
-    flex:1;
     gap: 20px;
     
 }
@@ -54,8 +60,7 @@ body {
 /* HERO SECTION */
 .hero {
     display: flex;
-    justify-content: space-around;
-    background-color: #1f2937;
+    justify-content: space-between;
     color: #f9faf8;
     flex:1;
 }
