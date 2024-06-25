@@ -11,6 +11,7 @@ body {
     justify-content: space-between;
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
+    gap: 40px;
 }
 
 /* HEADER AND HERO SECTION CONTAINER */
