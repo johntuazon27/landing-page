@@ -170,3 +170,34 @@ body {
     align-self: flex-end;
     margin-right: 30px;
 }
+
+/* SIGN UP SECTION */
+.signup {
+    display: flex;
+    background-color: #3882f6;  
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    min-width: 700px;
+    border-radius: 5px;
+    align-self: center;
+    gap: 70px;
+} 
+
+.signup-left h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.signup-right button {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 25px;
+}   
+
+.signup-left,
+.signup-right button {
+    color:#f9faf8;
+}
