@@ -57,6 +57,7 @@ body {
     justify-content: space-around;
     background-color: #1f2937;
     color: #f9faf8;
+    flex:1;
 }
 
 .hero-left-items {
