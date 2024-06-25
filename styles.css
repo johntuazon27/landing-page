@@ -106,7 +106,8 @@ body {
 }
 
 .hero-right-items img {
-    border: 1px solid red;
+    /* FOR DEBUGGING ONLY */
+    /* border: 1px solid red; */
     height: 150px;
     width: 300px;
 }
@@ -139,7 +140,8 @@ body {
 }
 
 .card img {
-    border: 5px solid blue;
+    /* FOR DEBUGGING ONLY */
+    /* border: 5px solid blue; */
     border-radius: 10px;
     height: 150px;
     width: 150px;
